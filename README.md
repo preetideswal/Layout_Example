@@ -8,7 +8,6 @@
     android:background="#BCB9B9"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -19,7 +18,6 @@
         android:gravity="center"
         android:layout_marginTop="40dp"
         android:textStyle="bold" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -28,8 +26,6 @@
         android:gravity="center"
         android:text="Linear Layout"
         android:textColor="#4C0808"
-
         android:textSize="40sp"
         android:textStyle="bold" />
-
 </LinearLayout>
