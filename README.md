@@ -35,4 +35,38 @@
 
 ....
 
-# Linear_Layout_Example
+# Relative_Layout_Example
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:text="Enter Name" />
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:textSize="25dp"
+            android:hint="Preeti Deswal" />
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:text="Submit" />
+    </RelativeLayout>
+...    
+    
