@@ -70,7 +70,7 @@
     </RelativeLayout>
 ...    
     
-#Table_Layout_Example
+# Table_Layout_Example
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
