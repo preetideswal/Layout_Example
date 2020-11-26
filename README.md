@@ -240,3 +240,231 @@
     </AbsoluteLayout>
 
 ...
+
+# Scroll_Layout_Example
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 1 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 2 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 3 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 4 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 5 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 6 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 7 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:text="ScrollView 8 Example" />
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="ScrollView 9 Example"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+...
+
+# Nested_Layout_Example
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51544511"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="Students Details"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/display_scorea_txt"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="Preeti Deswal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:text="MCA|||"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="5th sem"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="154"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@android:color/darker_gray" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="Abhishek Deswal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="BCA|"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="1st sem"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="144dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="ADD More data"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    </RelativeLayout>
+...
+
+    
