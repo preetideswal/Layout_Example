@@ -73,82 +73,170 @@
 # Table_Layout_Example
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp" >
-        <TableRow
-            android:background="#0079D6"
-            android:padding="10dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="UserId" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="User Name" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Roll.No:" />
-        </TableRow>
-        <TableRow
-            android:background="#DAE8FC"
-            android:padding="5dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="1" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Preeti Deswal" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="154" />
-        </TableRow>
-        <TableRow android:background="#DAE8FC" android:padding="5dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="2" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Abhishek Deswal" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="15" />
-        </TableRow>
-        <TableRow android:background="#DAE8FC" android:padding="5dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="3" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Kamna Malik" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="01" />
-        </TableRow>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    <TableRow
+        android:background="#0079D6"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UserId"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User Name"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Roll.No:"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+    </TableRow>
+    <TableRow
+        android:background="#DAE8FC"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Preeti Deswal"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="154"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+    </TableRow>
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Abhishek Deswal"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+    </TableRow>
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kamna Malik"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01"
+            android:textColor="#070707"
+            android:textSize="15dp"/>
+    </TableRow>
     </TableLayout>
+...
+
+# Absolute_Layout_Example
+    
+    <AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_x="100px"
+        android:layout_y="100px"
+        android:text="User Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_x="370px"
+        android:layout_y="80px"
+        android:width="100px"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:hint=" Preeti"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_x="100px"
+        android:layout_y="230px"
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_x="350px"
+        android:layout_y="200px"
+        android:width="100px"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:hint=" ****"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_x="400px"
+        android:layout_y="400px"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:textSize="20dp"/>
+    </AbsoluteLayout>
+
 ...
